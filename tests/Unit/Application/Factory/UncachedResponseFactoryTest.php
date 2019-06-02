@@ -1,6 +1,6 @@
 <?php
 
-namespace Unit\Application\Decode;
+namespace Unit\Application\Factory;
 
 use App\Application\Dto\UncachedResponse;
 use App\Application\Factory\UncachedResponseFactory;

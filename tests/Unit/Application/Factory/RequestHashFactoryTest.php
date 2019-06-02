@@ -1,12 +1,10 @@
 <?php
 
-namespace Unit\Application\Decode;
+namespace Unit\Application\Factory;
 
-use App\Application\Dto\UncachedResponse;
 use App\Application\Factory\RequestHashFactory;
 use App\Domain\ValueObject\RequestHash;
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\HttpFoundation\Response;
 
 class RequestHashFactoryTest extends TestCase
 {
